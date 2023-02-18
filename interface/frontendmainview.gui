@@ -96,12 +96,7 @@ guiTypes = {
 		position = { x=15 y =-15}
 		size = { width = 320 height = 378 }
 		Orientation = LOWER_LEFT
-		Origo = lower_left		
-				
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
-		}
+		Origo = lower_left
 		
 		ButtonType = {
 			name = "sp_continue_button"
@@ -177,7 +172,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "sp_back_button"
-			position = { x = 16 y = 218 }
+			position = { x = 16 y = 300 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "BACK"
 			buttonFont = "hoi_24header"
@@ -198,11 +193,6 @@ guiTypes = {
 		positionType = {
 			name = "subscription_size"
 			position = { x = 320 y = 506 }
-		}
-				
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_window"
 		}
 			
 		ButtonType = {
