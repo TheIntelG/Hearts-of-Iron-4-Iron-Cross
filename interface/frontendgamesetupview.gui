@@ -130,7 +130,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"
-			position = { x = 28 y = 22 }
+			position = { x = 22 y = 16 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -146,7 +146,6 @@ guiTypes = {
 	### country entry
 	containerWindowType = {
 		name = "country_entry_medium"
-		size = { width = 138 height = 97 }
 
 		iconType = {
 			name = "country_flag"
@@ -171,7 +170,7 @@ guiTypes = {
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_flag_small2"
-			position = { x = 9 y = 8 }
+			position = { x = 5 y = 4 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -414,7 +413,7 @@ guiTypes = {
 			format = centre
 		}
 
-		instantTextBoxType = {
+				instantTextBoxType = {
 			name = "menu_label"
 			position = { x = 145 y = 85 }
 			textureFile = ""
@@ -628,53 +627,61 @@ guiTypes = {
 
 		containerWindowType = {
 			name ="countries"
-			position = { x = 15 y = 45 }
-			size = { width = -15 height = 120}
+			position = { x = 20 y = 20 }
+			size = { width = 0 height = 85}
 
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 80 }
-				add_horizontal = no
-				max_slots_vertical = 10
-				format = "UPPER_LEFT"
-			}
-
-		}
-
-		containerWindowType = {
-			name ="countries_medium"
-			position = { x = 15 y = 330 }
-			size = { width = -15 height = 120}
-
-			gridboxType = {
-				name ="countries_grid"
-				position = { x = 0 y = 0 }
-				size = { width = 100% height = 100% }
-				slotsize = { width = 150 height = 0 }
+				slotsize = { width = 126 height = 85 }
 				add_horizontal = yes
-				max_slots_vertical = 1
+				max_slots_vertical = 8
+				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
 		}
 
 		containerWindowType = {
 			name ="countries_mini"
-			position = { x = 15 y = 340 }
+			position = { x = 150 y = 24 }
 			size = { width = -15 height = 120}
 
 			gridboxType = {
 				name ="countries_grid"
 				position = { x = 0 y = 0 }
 				size = { width = 100% height = 100% }
-				slotsize = { width = 53 height = 40 }
-				max_slots_horizontal = 22
+				slotsize = { width = 52 height = 40 }
 				add_horizontal = yes
-				max_slots_horizontal = 22
-				max_slots_vertical = 2
+				max_slots_horizontal = 5
+				max_slots_vertical = 30
 				format = "UPPER_LEFT"
 			}
+		}
+		# Visual Cover Majors
+		# Allied Minors Cover Small
+		iconType = {
+			name = "country_selection_allied_minor_cover_small"
+			position = { x = 307 y = 180 }
+			spriteType = "GFX_country_selection_allied_minor_cover_small"
+		}
+		# Allied Minors Cover Big
+		iconType = {
+			name = "country_selection_allied_minor_cover_big"
+			position = { x = 142 y = 221 }
+			spriteType = "GFX_country_selection_allied_minor_cover_big"
+		}
+		# Neutral Minors Cover Small
+		iconType = {
+			name = "country_selection_neutral_minor_cover_small"
+			position = { x = 303 y = 380 }
+			spriteType = "GFX_country_selection_neutral_minor_cover_small"
+		}
+		# Neutral Minors Cover Big
+		iconType = {
+			name = "country_selection_neutral_minor_cover_big"
+			position = { x = 142 y = 421 }
+			spriteType = "GFX_country_selection_neutral_minor_cover_big"
 		}
 
 		iconType = {
