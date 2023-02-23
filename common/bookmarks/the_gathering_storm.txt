@@ -191,8 +191,74 @@ bookmarks = {
 				JAP_strike_on_the_southern_resource_area
 			}			
 		}
-		# MINORS FROM DLC #
-		# ALLIED MINORS #
+		# MINORS #
+		# FRANCE ROW 1 #
+		"YUG"={
+			minor = yes
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				anti_german_military
+				YUG_idea_croatian_opposition
+				YUG_idea_serbian_general_staff
+			}
+			focuses = {
+				YUG_end_the_regency
+				YUG_abolish_the_monarchy
+				YUG_dissolve_serbia
+			}
+		}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# FRANCE ROW 2 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# USA ROW 1 #
+		"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_1
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
+		"MEX"={
+			minor = yes
+			history = "MEXICO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				MEX_church_power_2
+				MEX_politicised_army
+				MEX_oil_concessions
+			}
+			focuses = {
+				MEX_focus_aztec_eagles
+				MEX_focus_hispanic_alliance
+				MEX_focus_smash_the_bureaucrats
+			}
+		}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# USA ROW 2 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# UK ROW 1 #
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
@@ -261,6 +327,7 @@ bookmarks = {
 				SAF_anti_colonialist_crusade
 			}
 		}
+		# UK ROW 2 #
 		"CZE"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
@@ -273,136 +340,6 @@ bookmarks = {
 				CZE_sudeten_1
 				CZE_industrial_legacy
 				CZE_military_research_institute
-			}
-		}
-		"YUG"={
-			minor = yes
-			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				anti_german_military
-				YUG_idea_croatian_opposition
-				YUG_idea_serbian_general_staff
-			}
-			focuses = {
-				YUG_end_the_regency
-				YUG_abolish_the_monarchy
-				YUG_dissolve_serbia
-			}
-		}
-		"CHI"={
-			minor = yes
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				CHI_army_corruption_1
-				CHI_hyper_inflation_1
-				CHI_nine_power_treaty
-			}
-			focuses = {
-				CHI_united_front
-				CHI_army_reform
-				CHI_invite_the_flying_tigers
-			}
-		}
-		"PRC"={
-			minor = yes
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				PRC_the_long_march_1
-				PRC_low_popular_support_3
-				PRC_power_struggles
-			}
-			focuses = {
-				PRC_infiltration
-				PRC_maoism
-				PRC_anti_japanese_expedition
-			}
-		}
-		"GXC"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"YUN"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SHX"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"XSM"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}		
-		"SIK"={
-			minor = yes
-			history = "WARLORDS_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				PRC_government_corruption
-				CHI_ineffective_bureaucracy_warlord
-			}
-			focuses = {
-				CHI_join_the_republican_government
-				CHI_provoke_border_clashes
-				CHI_join_the_chinese_soviet
-			}
-		}
-		"MEX"={
-			minor = yes
-			history = "MEXICO_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-				MEX_church_power_2
-				MEX_politicised_army
-				MEX_oil_concessions
-			}
-			focuses = {
-				MEX_focus_aztec_eagles
-				MEX_focus_hispanic_alliance
-				MEX_focus_smash_the_bureaucrats
 			}
 		}
 		"HOL"={
@@ -435,19 +372,50 @@ bookmarks = {
 				GRE_stage_an_incident_in_the_bosporus
 			}
 		}
-		"TUR"={
+		"POL"={
 			minor = yes
-			history = "TUR_GATHERING_STORM_DESC"
+			history = "POL_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				TUR_sectarian_woes
-				TUR_disorganised_armed_forces
-				TUR_debt_council
+				uncontrolled_exports
+				POL_april_constitution_1
+				POL_looming_peasants_strike
 			}
 			focuses = {
-				TUR_ratify_the_six_arrows
-				TUR_reaffirm_the_balkan_pact
-				TUR_pivot_to_the_past
+				POL_complete_april_constitution
+				POL_clamp_down_on_danzig
+				POL_the_between_the_seas_concept
+			}
+		}
+		"SWI"={ minor = yes history = ""}
+		# USSR ROW 1 #
+		"PRC"={
+			minor = yes
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_3
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}		
+		"SIK"={
+			minor = yes
+			history = "WARLORDS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
 			}
 		}
 		"LIT"={
@@ -492,19 +460,26 @@ bookmarks = {
 				EST_unite_our_nations
 			}
 		}
-		"POL"={
+		# USSR ROW 2 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# NEUTRAL ROW 1 #
+		"TUR"={
 			minor = yes
-			history = "POL_GATHERING_STORM_DESC"
+			history = "TUR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				uncontrolled_exports
-				POL_april_constitution_1
-				POL_looming_peasants_strike
+				TUR_sectarian_woes
+				TUR_disorganised_armed_forces
+				TUR_debt_council
 			}
 			focuses = {
-				POL_complete_april_constitution
-				POL_clamp_down_on_danzig
-				POL_the_between_the_seas_concept
+				TUR_ratify_the_six_arrows
+				TUR_reaffirm_the_balkan_pact
+				TUR_pivot_to_the_past
 			}
 		}
 		"ETH"={
@@ -522,34 +497,6 @@ bookmarks = {
 				ETH_military_communism
 			}
 		}
-		# MINORS FILLER #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# ROW 1 #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# ROW 2 #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# ROW 3 #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# ROW 4 #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# NEUTRAL MINORS #
 		"SWI"={
 			minor = yes
 			history = "SWI_GATHERING_STORM_DESC"
@@ -593,16 +540,13 @@ bookmarks = {
 				POR_luso_tropicalism
 			}
 		}
-		# MINORS FILLER #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# ROW 1 #
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		"GER"={ minor = yes history = ""}
-		# AXIS MINORS #
+		# NEUTRAL ROW 2 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# GERMANY ROW 1 #
 		"HUN"={
 			minor = yes
 			history = "HUN_GATHERING_STORM_DESC"
@@ -630,21 +574,6 @@ bookmarks = {
 				ROM_preserve_greater_romania
 			}
 		}
-		"MAN"={
-			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
-			}
-			focuses = {
-				MAN_obedience
-				MAN_independence_war
-				MAN_claim_the_mandate_of_heaven
-			}
-		}
 		"BUL"={
 			minor = yes
 			history = "BUL_GATHERING_STORM_DESC"
@@ -660,6 +589,53 @@ bookmarks = {
 				BUL_prussia_of_the_balkans
 			}
 		}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# GERMANY ROW 2 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# ITALY ROW 1 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# ITALY ROW 2 #
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		"SWI"={ minor = yes history = ""}
+		# JAPAN ROW 1 #
+		"MAN"={
+			minor = yes
+			history = "MAN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				MAN_banditry
+				MAN_kwantung_veto
+				MAN_low_legitimacy_5
+			}
+			focuses = {
+				MAN_obedience
+				MAN_independence_war
+				MAN_claim_the_mandate_of_heaven
+			}
+		}
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+		# JAPAN ROW 2 #
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+		# "SWI"={ minor = yes history = ""}
+
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

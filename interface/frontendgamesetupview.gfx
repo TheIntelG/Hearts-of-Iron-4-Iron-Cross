@@ -309,22 +309,47 @@ spriteTypes = {
 
 	# IRON CROSS GFX
 	spriteType = {
-		name = "GFX_country_selection_allied_minor_cover_small"
-		texturefile = "gfx/interface/country_selection_allied_minor_cover_small.dds"
+		name = "GFX_country_selection_overlay_france_row_1"
+		texturefile = "gfx/interface/country_selection_overlay_france_row_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_country_selection_allied_minor_cover_big"
-		texturefile = "gfx/interface/country_selection_allied_minor_cover_big.dds"
+		name = "GFX_country_selection_overlay_france_row_2"
+		texturefile = "gfx/interface/country_selection_overlay_france_row_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_country_selection_neutral_minor_cover_small"
-		texturefile = "gfx/interface/country_selection_neutral_minor_cover_small.dds"
+		name = "GFX_country_selection_overlay_usa_row_1"
+		texturefile = "gfx/interface/country_selection_overlay_usa_row_1.dds"
 	}
 
 	spriteType = {
-		name = "GFX_country_selection_neutral_minor_cover_big"
-		texturefile = "gfx/interface/country_selection_neutral_minor_cover_big.dds"
+		name = "GFX_country_selection_overlay_usa_row_2"
+		texturefile = "gfx/interface/country_selection_overlay_usa_row_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_selection_overlay_uk_row_2"
+		texturefile = "gfx/interface/country_selection_overlay_uk_row_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_selection_overlay_ussr_row_2"
+		texturefile = "gfx/interface/country_selection_overlay_ussr_row_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_selection_overlay_neutral_row_2"
+		texturefile = "gfx/interface/country_selection_overlay_neutral_row_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_selection_overlay_germany_row_1"
+		texturefile = "gfx/interface/country_selection_overlay_germany_row_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_country_selection_overlay_axis_rows"
+		texturefile = "gfx/interface/country_selection_overlay_axis_rows.dds"
 	}
 }
